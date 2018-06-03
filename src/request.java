@@ -17,7 +17,7 @@ import javax.swing.JCheckBox;
 import java.awt.Color;
 
 
-public class request extends JFrame {
+public class request extends routes {
 
 	private JPanel contentPane;
 	private JTextField textField;
@@ -37,6 +37,7 @@ public class request extends JFrame {
 	public request() {
 		setTitle("Gestor de Empresa - Ruta de Archivo");
 		setBackground(Color.WHITE);
+		
 		routes route = new routes();
 		setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
 		setBounds(100, 100, 530, 162);

@@ -12,7 +12,7 @@ import java.io.IOException;
 import java.awt.event.ActionEvent;
 import java.awt.Color;
 
-public class ip extends JFrame {
+public class ip extends routes {
 
 	private JPanel contentPane;
 	private JTextField textField;
@@ -53,8 +53,7 @@ ip() {
 		btnAceptar.setBackground(Color.WHITE);
 		btnAceptar.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
-				routes router = new routes();
-				router.setip(textField.getText());
+				routes.ip = textField.getText();
 				maine frame;
 				try {
 					frame = new maine();

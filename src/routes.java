@@ -1,10 +1,12 @@
 import java.io.IOException;
+
+import javax.swing.JFrame;
 /**
  * <h2> Archivo de configuracion de ruta, modo y ip </h2>
  * Este archivo guarda o modifica la ruta del JSON, el modo sin conexion y la IP del servidor de base de datos.
  * @author Gyswu
  */
-public class routes {
+public class routes extends JFrame {
 	/**
 	 * Atributo de ruta donde se guarda el archivo
 	 */
