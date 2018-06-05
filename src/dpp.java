@@ -10,6 +10,8 @@ import javax.swing.JLabel;
 import javax.swing.JOptionPane;
 import javax.swing.SwingConstants;
 import java.awt.Font;
+import java.awt.Toolkit;
+
 import javax.swing.JButton;
 import java.awt.event.ActionListener;
 import java.io.IOException;
@@ -41,6 +43,7 @@ public class dpp extends JFrame {
 	 * Create the frame.
 	 */
 	public dpp() {
+		setIconImage(Toolkit.getDefaultToolkit().getImage("G:\\logoxxx.png"));
 		setBackground(Color.WHITE);
 		setTitle("Eliminar un pedido cancelado");
 		parse parsex = new parse();

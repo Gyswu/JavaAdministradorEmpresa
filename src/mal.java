@@ -10,6 +10,8 @@ import javax.swing.JLabel;
 import javax.swing.JOptionPane;
 import javax.swing.SwingConstants;
 import java.awt.Font;
+import java.awt.Toolkit;
+
 import javax.swing.JButton;
 import java.awt.event.ActionListener;
 import java.io.IOException;
@@ -46,6 +48,7 @@ public class mal extends JFrame {
 	 * Create the frame.
 	 */
 	public mal() {
+		setIconImage(Toolkit.getDefaultToolkit().getImage("G:\\logoxxx.png"));
 		setBackground(Color.WHITE);
 		setTitle("Modificar Albaran");
 		parse parsex = new parse();

@@ -17,6 +17,7 @@ import java.awt.event.ActionEvent;
 import javax.swing.DefaultComboBoxModel;
 import javax.swing.UIManager;
 import java.awt.SystemColor;
+import java.awt.Toolkit;
 
 public class iex extends JFrame {
 
@@ -45,6 +46,7 @@ public class iex extends JFrame {
 	 * Create the frame.
 	 */
 	public iex() {
+		setIconImage(Toolkit.getDefaultToolkit().getImage("G:\\logoxxx.png"));
 		setForeground(UIManager.getColor("Button.highlight"));
 		setTitle("Nueva existencia");
 		parse parsex = new parse();

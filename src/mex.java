@@ -16,6 +16,8 @@ import java.io.IOException;
 import java.awt.event.ActionEvent;
 import javax.swing.DefaultComboBoxModel;
 import java.awt.SystemColor;
+import java.awt.Toolkit;
+
 import javax.swing.UIManager;
 
 public class mex extends JFrame {
@@ -47,6 +49,7 @@ public class mex extends JFrame {
 	 * @throws IOException 
 	 */
 	public mex() throws IOException {
+		setIconImage(Toolkit.getDefaultToolkit().getImage("G:\\logoxxx.png"));
 		setBackground(UIManager.getColor("Button.highlight"));
 		setTitle("Modificar existencia");
 		parse parsex = new parse();

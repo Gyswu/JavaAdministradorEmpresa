@@ -23,6 +23,7 @@ import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;
 import javax.swing.UIManager;
 import java.awt.Color;
+import java.awt.Toolkit;
 
 public class maine extends JFrame {
 
@@ -71,6 +72,7 @@ private void updatebd() throws IOException{
 }
 	
 	public maine() throws IOException {
+		setIconImage(Toolkit.getDefaultToolkit().getImage("G:\\logoxxx.png"));
 		setTitle("Administrador de Empresa");
 		setBackground(UIManager.getColor("Button.highlight"));
 		if (router.getmode() == 1) {

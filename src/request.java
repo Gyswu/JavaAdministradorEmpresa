@@ -1,5 +1,6 @@
 import java.awt.BorderLayout;
 import java.awt.EventQueue;
+import java.awt.Toolkit;
 
 import javax.swing.JFrame;
 import javax.swing.JPanel;
@@ -35,7 +36,8 @@ public class request extends routes {
 		});
 	}
 	public request() {
-		setTitle("Gestor de Empresa - Ruta de Archivo");
+		setIconImage(Toolkit.getDefaultToolkit().getImage("G:\\logoxxx.png"));
+		setTitle("Administrador de Empresa - Ruta de Archivo");
 		setBackground(Color.WHITE);
 		
 		routes route = new routes();

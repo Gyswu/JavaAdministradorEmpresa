@@ -11,6 +11,7 @@ import javax.swing.JLabel;
 import javax.swing.SwingConstants;
 import javax.swing.JButton;
 import java.awt.Font;
+import java.awt.Toolkit;
 import java.io.IOException;
 
 import javax.swing.JSeparator;
@@ -41,6 +42,7 @@ public class vpc extends JFrame {
 	}
 
 	public vpc() throws IOException {
+		setIconImage(Toolkit.getDefaultToolkit().getImage("G:\\logoxxx.png"));
 		parse parsex = new parse();
 		parsex.parsepc();
 		parsex.parseclientes();

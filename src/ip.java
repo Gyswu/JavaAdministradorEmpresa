@@ -1,5 +1,6 @@
 import java.awt.BorderLayout;
 import java.awt.EventQueue;
+import java.awt.Toolkit;
 
 import javax.swing.JFrame;
 import javax.swing.JPanel;
@@ -30,6 +31,7 @@ public class ip extends routes {
 		});
 	}
 ip() {
+	setIconImage(Toolkit.getDefaultToolkit().getImage("G:\\logoxxx.png"));
 	setBackground(Color.WHITE);
 		setTitle("Administrador de Empresa - IP de la base de datos");
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);

@@ -16,6 +16,7 @@ import java.io.IOException;
 import java.awt.event.ActionEvent;
 import javax.swing.DefaultComboBoxModel;
 import java.awt.Color;
+import java.awt.Toolkit;
 
 public class dpro extends JFrame {
 
@@ -41,6 +42,7 @@ public class dpro extends JFrame {
 	 * Create the frame.
 	 */
 	public dpro() {
+		setIconImage(Toolkit.getDefaultToolkit().getImage("G:\\logoxxx.png"));
 		setBackground(Color.WHITE);
 		setTitle("Baja de un proveedor");
 		parse parsex = new parse();

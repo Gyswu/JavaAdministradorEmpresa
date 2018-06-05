@@ -16,6 +16,7 @@ import java.io.IOException;
 import java.awt.event.ActionEvent;
 import javax.swing.DefaultComboBoxModel;
 import java.awt.Color;
+import java.awt.Toolkit;
 
 public class dal extends JFrame {
 
@@ -41,6 +42,7 @@ public class dal extends JFrame {
 	 * Create the frame.
 	 */
 	public dal() {
+		setIconImage(Toolkit.getDefaultToolkit().getImage("G:\\logoxxx.png"));
 		setBackground(Color.WHITE);
 		setTitle("Eliminar un albaran");
 		parse parsex = new parse();

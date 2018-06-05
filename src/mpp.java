@@ -10,6 +10,8 @@ import javax.swing.JLabel;
 import javax.swing.JOptionPane;
 import javax.swing.SwingConstants;
 import java.awt.Font;
+import java.awt.Toolkit;
+
 import javax.swing.JButton;
 import java.awt.event.ActionListener;
 import java.io.IOException;
@@ -51,6 +53,7 @@ public class mpp extends JFrame {
 	 * @throws IOException 
 	 */
 	public mpp() throws IOException {
+		setIconImage(Toolkit.getDefaultToolkit().getImage("G:\\logoxxx.png"));
 		setBackground(Color.WHITE);
 		setTitle("Modificacion pedido proveedor");
 		parse parsex = new parse();

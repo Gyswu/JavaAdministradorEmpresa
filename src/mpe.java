@@ -11,6 +11,7 @@ import javax.swing.JTextField;
 import javax.swing.JButton;
 import javax.swing.SwingConstants;
 import java.awt.Font;
+import java.awt.Toolkit;
 import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;
 
@@ -45,6 +46,7 @@ public class mpe extends JFrame {
 	 * @throws IOException 
 	 */
 	public mpe() throws IOException {
+		setIconImage(Toolkit.getDefaultToolkit().getImage("G:\\logoxxx.png"));
 		parse parsex = new parse();
 		parsex.parsepe();
 		
